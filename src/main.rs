@@ -52,6 +52,7 @@ fn execute_example1() {
 
 
 fn execute_example2() {
+    println!("######Example 17.2 #########");
     struct SelectBox {
         width: u32,
         height: u32,
@@ -104,6 +105,7 @@ we’ve defined Screen to need values that we can call the draw method on.
 
 
 fn execute_example3() {
+    println!("######Example 17.3 #########");
     use crate::example3::Post;
     let mut post = Post::new();
 

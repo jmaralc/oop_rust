@@ -8,6 +8,7 @@ pub struct AveragedCollection {
 }
 
 pub trait Average {
+    // Default implementation
     // This is similar to a parent class having an implementation 
     // of a method and an inheriting child class also having the implementation of the method. 
     // Ok, but how to do something more complex referring to the self?
