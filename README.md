@@ -1,5 +1,5 @@
 # OOP in rust
-Clone the repository and execute the script by:
+Clone the repository and execute the programm by:
 ```
 cargo build
 ```
