@@ -87,6 +87,7 @@ fn execute_example2() {
         ],
     };
 
+    // Rust won’t compile our code if the values don’t implement the traits that the trait objects need.
     // let screen = Screen {
     //     components: vec![Box::new(String::from("Hi"))],
     // };
