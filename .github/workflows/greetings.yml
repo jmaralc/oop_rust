@@ -1,7 +1,8 @@
 name: Greetings
 
-on: [pull_request, issues]
-
+on:
+  workflow_dispatch:
+    branches: [master]
 jobs:
   greeting:
     runs-on: ubuntu-latest
